@@ -62,7 +62,7 @@ height: 238px;
   margin: 25px 0 0 24px;
 }
 
-.card__text span {
+.span {
   font-family: "Inter";
   font-size: 12px;
   color: #0070A0;
@@ -70,21 +70,21 @@ height: 238px;
   padding: 4px 19px;
 }
 
-.card__text h3 {
+.h3 {
   padding-top: 8px;
   font-family: "Fraunces";
   font-size: 25px;
   color: #1F1F1F;
 }
 
-.card__text p {
+.p {
   padding-top: 12px;
   font-family: "Inter";
   font-size: 14px;
   color: #1F1F1F;
 }
 
- .card__text .data {
+ .p.data {
   font-size: 12px;
-  margin-bottom: 26px;
+  padding-bottom: 26px;
 }
