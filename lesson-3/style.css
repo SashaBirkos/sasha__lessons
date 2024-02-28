@@ -1,0 +1,27 @@
+span {
+  color: red;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+div {
+  max-width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+option {
+  font-weight: bolder;
+  display: block;
+}
+
+.checkbox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 20px;
+}
