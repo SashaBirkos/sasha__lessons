@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2><strong>Форма заявки на работу в зоопарке</strong></h2>
+  <em>Пожалуйста, заполните форму. Обязательные поля помечены <span>*</span></em>
+  <form action="">
+    <fieldset>
+      <legend>Контактная информация</legend>
+      <div>
+        <label for="name">Имя <span>*</span></label>
+        <input type="text" id="name"  required>
+        </label>
+      </div>
+      <div>
+        <label for="tel">Телефон</label>
+        <input type="number" id="tel">
+      </div>
+      <div>
+        <label for="email">Email <span>*</span></label>
+        <input type="email" id="email" required>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Персональная информация</legend>
+      <div>
+        <label for="age">Возраст <span>*</span></label>
+        <input type="number" id="age" required>
+      </div>
+      <div>
+        <label for="floor">Пол</label>
+        <select  id="floor">
+          <option value="woman">Женский</option>
+          <option value="man's">Мужской</option>
+        </select>
+      </div>
+      <div>
+        <label for="quality">Перечислите <br>личные <br>качества</label>
+        <textarea name="text" id="quality" cols="30" rows="10"></textarea>
+      </div>
+    </fieldset>
+    <fieldset class="checkbox">
+      <legend>Выберите ваших любимых животных</legend>
+      
+        <label for="option1">
+            <input type="checkbox" value="option1" id="option1">
+            Зебра
+        </label>
+        <label for="option2">
+            <input type="checkbox" value="option2" id="option2">
+            Кошка
+        </label>
+        <label for="option3">
+            <input type="checkbox" value="option3" id="option3">
+            Анаконда
+        </label>
+        <label for="option4">
+            <input type="checkbox" value="option4" id="option4">
+            Человек
+        </label>
+      
+        <label for="option5">
+            <input type="checkbox" value="option5" id="option5">
+            Слон
+        </label>
+        <label for="option6">
+            <input type="checkbox" value="option6" id="option6">
+            Антилопа
+        </label>
+        <label for="option7">
+            <input type="checkbox" value="option7" id="option7">
+            Голубь
+        </label>
+        <label for="option8">
+            <input type="checkbox" value="option8" id="option8">
+            Краб
+        </label>
+    </fieldset>
+    <input type="submit">
+  </form>
+</body>
+</html>
